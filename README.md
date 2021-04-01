@@ -30,4 +30,10 @@ You must create a model which predicts a probability of each type of toxicity fo
 (​)  Evaluation  - how good our model is?
 (​)  Predicting sentiment from raw text
 
+## Data Precocessing
+You might already know that Machine Learning models don’t work with raw text. You need to convert text to numbers (of some sort). BERT requires even more attention (good one, right?). Here are the requirements:
 
+Add special tokens to separate sentences and do classification
+Pass sequences of constant length (introduce padding)
+Create array of 0s (pad token) and 1s (real token) called attention mask
+The Transformers library provides (you’ve guessed it) a wide variety of Transformer models (including BERT). It works with TensorFlow and PyTorch! It also includes prebuild tokenizers that do the heavy lifting for us!
