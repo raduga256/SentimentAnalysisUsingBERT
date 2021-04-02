@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iTKkt2y6pTNJ0qWXMG0wki7zUcIpc12S#scrollTo=wbGAsxfqARrK)
 # SentimentAnalysisUsingBERT
 Build a sentiment classification model using BERT from the Transformers library by Hugging Face with PyTorch and Python.
 
